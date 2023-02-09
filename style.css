@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+img {
+  display: flex;
+  /* width: 200px; */
+  /* height: 130px; */
+  width: 100%;
+}
+.prodacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card-listt {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: start;
+  min-width: 300px;
+  max-width: 302px;
+  background-color: rgba(204, 204, 204, 0.5);
+  padding: 20px 30px;
+}
+h6 {
+  margin-top: 10px;
+}
+.narx {
+  margin-top: 5px;
+}
+.rang {
+  margin-top: 5px;
+}
